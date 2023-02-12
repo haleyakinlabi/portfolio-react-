@@ -3,20 +3,9 @@ import { useForm } from "react-hook-form";
 import { motion } from "framer-motion";
 
 const Contact = () => {
-  const {
-    register,
-    trigger,
-    formState: { errors },
-  } = useForm();
+  
 
-  const onSubmit = async (e) => {
-    console.log("~ e", e);
-    const isValid = await trigger();
-    if (!isValid) {
-      e.preventDefault();
-    }
-  };
-
+  
   return (
     <section id="contact" className="contact py-48">
       {/* HEADINGS */}
@@ -41,7 +30,7 @@ const Contact = () => {
         </div>
       </motion.div>
 
-      {/* FORM & IMAGE */}
+    
       <div className="md:flex md:justify-between gap-16 mt-5">
         <motion.div
           initial="hidden"
