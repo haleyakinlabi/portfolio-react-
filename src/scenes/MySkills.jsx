@@ -68,8 +68,7 @@ const MySkills = () => {
           </div>
           <p className="mt-5 justify-evenly">
            Javascript, ReactJS/Redux,<br></br>
-           HTML/CSS, Axios,<br></br>
-           Ui/Ux Design, Tailwind
+           HTML/CSS, Axios, Ui/Ux Design, Tailwind, React-Native
           </p>
         </motion.div>
 
