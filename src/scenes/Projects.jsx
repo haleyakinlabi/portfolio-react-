@@ -37,6 +37,57 @@ const Projects = () => {
         ></motion.div>
       </div>
 
+      <div className=" flex flex-row overflow-x-auto gap-8">
+          <p className="font-playfair font-semibold text-3xl">Filmsource</p>
+          <a
+            href="https://github.com/wasatchtimpanogos/filmsource"
+            className="hover:text-yellow transition duration-500"
+          >
+            GitHub
+          </a>
+          <a
+            href="https://www.youtube.com/watch?v=HVhPrRhgORk"
+            className="hover:text-yellow transition duration-500"
+          >
+            Demo
+          </a>
+        </div>
+
+        <div className="flex flex-nowrap h-64 overflow-x-auto gap-2">
+          <img alt="film source" src="../assets/fl1.png"></img>
+          <img alt="film source" src="../assets/fl2.png"></img>
+          <img alt="film source" src="../assets/fl3.png"></img>
+          <img alt="film source" src="../assets/fl4.png"></img>
+          <img alt="film source" src="../assets/fl5.png"></img>
+        </div>
+      
+
+
+      <div className=" flex flex-row overflow-x-auto gap-8">
+          <p className="font-playfair font-semibold text-3xl">Thermozone</p>
+          <a
+            href="https://github.com/wasatchtimpanogos/WeatherApp"
+            className="hover:text-yellow transition duration-500"
+          >
+            GitHub
+          </a>
+          <a
+            href="https://www.youtube.com/watch?v=ZgnZ30blHZc"
+            className="hover:text-yellow transition duration-500"
+          >
+            Demo
+          </a>
+        </div>
+
+        <div className="flex flex-nowrap h-64 overflow-x-auto gap-2">
+          <img alt="weather app" src="../assets/weatherApp1.png"></img>
+          <img alt="weather app" src="../assets/weatherApp2.png"></img>
+          <img alt="weather app" src="../assets/weatherApp3.png"></img>
+          <img alt="weather app" src="../assets/weatherApp4.png"></img>
+          <img alt="weather app" src="../assets/weatherApp5.png"></img>
+          <img alt="weather app" src="../assets/weatherApp6.png"></img>
+        </div>
+     
       <div flex flex-col overflow-y-scroll>
         <div className=" flex flex-row overflow-x-auto gap-8">
           <p className="font-playfair font-semibold text-3xl">MyPet</p>
@@ -87,30 +138,6 @@ const Projects = () => {
         </div>
         <br></br>
 
-        <div className=" flex flex-row overflow-x-auto gap-8">
-          <p className="font-playfair font-semibold text-3xl">Thermozone</p>
-          <a
-            href="https://github.com/wasatchtimpanogos/WeatherApp"
-            className="hover:text-yellow transition duration-500"
-          >
-            GitHub
-          </a>
-          <a
-            href="https://www.youtube.com/watch?v=ZgnZ30blHZc"
-            className="hover:text-yellow transition duration-500"
-          >
-            Demo
-          </a>
-        </div>
-
-        <div className="flex flex-nowrap h-64 overflow-x-auto gap-2">
-          <img alt="weather app" src="../assets/weatherApp1.png"></img>
-          <img alt="weather app" src="../assets/weatherApp2.png"></img>
-          <img alt="weather app" src="../assets/weatherApp3.png"></img>
-          <img alt="weather app" src="../assets/weatherApp4.png"></img>
-          <img alt="weather app" src="../assets/weatherApp5.png"></img>
-          <img alt="weather app" src="../assets/weatherApp6.png"></img>
-        </div>
       </div>
     </section>
   );
